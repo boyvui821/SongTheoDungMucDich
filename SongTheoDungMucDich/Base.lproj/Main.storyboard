@@ -1,40 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="MarkerFeltThin.ttf">
-            <string>MarkerFelt-Thin</string>
-        </array>
-        <array key="MarkerFeltWide.ttf">
-            <string>MarkerFelt-Wide</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Popover Info Controller-->
         <scene sceneID="HbT-bd-7Oq">
             <objects>
                 <viewController modalPresentationStyle="overCurrentContext" id="51G-fV-vez" customClass="PopoverInfoController" customModule="SongTheoDungMucDich" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GJw-iz-b00">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBZ-gf-eYY">
-                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="70" width="768" height="954"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m7P-lH-QWZ" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="50" width="335" height="527"/>
+                                        <rect key="frame" x="20" y="50" width="728" height="884"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JBB-ch-LKu">
-                                                <rect key="frame" x="10" y="10" width="315" height="507"/>
+                                                <rect key="frame" x="10" y="10" width="708" height="864"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">VỀ TÁC GIẢ: MỤC SƯ RICK WARREN
 
@@ -101,7 +92,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPl-Iw-X3N" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                <rect key="frame" x="275" y="20" width="100" height="100"/>
+                                <rect key="frame" x="668" y="20" width="100" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmj-mO-BrX">
                                         <rect key="frame" x="20" y="20" width="60" height="60"/>
@@ -153,14 +144,14 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeController" customModule="SongTheoDungMucDich" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ngm-Kq-iLm">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="974"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THEO ĐÚNG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Huh-S1-6TK">
-                                        <rect key="frame" x="20" y="341" width="335" height="43.5"/>
+                                        <rect key="frame" x="20" y="543" width="728" height="87"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -169,7 +160,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                         </variation>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MountainImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Zf-TW-K5A">
-                                        <rect key="frame" x="102.5" y="65" width="170" height="170"/>
+                                        <rect key="frame" x="234" y="65" width="300" height="300"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="170" id="Z89-KH-Mo9">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="300"/>
@@ -180,7 +171,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sống" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6J-uU-B52">
-                                        <rect key="frame" x="20" y="255" width="335" height="83.5"/>
+                                        <rect key="frame" x="20" y="385" width="728" height="156"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="64"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -189,7 +180,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MỤC ĐÍCH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbI-2j-oEG">
-                                        <rect key="frame" x="20" y="387" width="335" height="43.5"/>
+                                        <rect key="frame" x="20" y="632" width="728" height="87"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -219,7 +210,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ur-V6-ADK" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                <rect key="frame" x="275" y="567" width="100" height="100"/>
+                                <rect key="frame" x="668" y="924" width="100" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcJ-zG-TtS">
                                         <rect key="frame" x="20" y="20" width="60" height="60"/>
@@ -247,7 +238,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JpA-Gw-Xhs" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                <rect key="frame" x="175" y="567" width="100" height="100"/>
+                                <rect key="frame" x="568" y="924" width="100" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK8-lI-buH">
                                         <rect key="frame" x="20" y="20" width="60" height="60"/>
@@ -309,14 +300,14 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
             <objects>
                 <viewController id="Asn-b0-zee" customClass="MenuController" customModule="SongTheoDungMucDich" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3hx-Tw-le4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YfS-6c-pfU">
-                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="70" width="768" height="954"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="t9s-7E-ibe">
-                                        <rect key="frame" x="0.0" y="50" width="375" height="547"/>
+                                        <rect key="frame" x="0.0" y="50" width="768" height="904"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KFm-UT-Ohu">
                                             <size key="itemSize" width="362" height="412"/>
@@ -326,17 +317,17 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ReuseCell" id="Nqu-lt-MEz" customClass="MenuCollectionViewCell" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                                <rect key="frame" x="6.5" y="0.0" width="362" height="412"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="362" height="412"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                     <rect key="frame" x="0.0" y="0.0" width="362" height="412"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Blp-aN-cqE" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                                            <rect key="frame" x="13" y="13" width="336" height="386"/>
+                                                            <rect key="frame" x="13" y="33" width="336" height="366"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FlowerIcon1.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMF-sP-Vdt">
-                                                                    <rect key="frame" x="128" y="10" width="80" height="80"/>
+                                                                    <rect key="frame" x="93" y="50" width="150" height="150"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="80" id="6sd-Au-9RC">
                                                                             <variation key="heightClass=regular-widthClass=regular" constant="150"/>
@@ -347,7 +338,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPK-6e-1Ks">
-                                                                    <rect key="frame" x="10" y="92" width="316" height="23.5"/>
+                                                                    <rect key="frame" x="10" y="202" width="316" height="45.5"/>
                                                                     <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="18"/>
                                                                     <nil key="highlightedColor"/>
                                                                     <variation key="heightClass=regular-widthClass=regular">
@@ -402,7 +393,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ls4-W3-d3p" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                <rect key="frame" x="275" y="20" width="100" height="100"/>
+                                <rect key="frame" x="668" y="20" width="100" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIg-Q3-KVy">
                                         <rect key="frame" x="20" y="20" width="60" height="60"/>
@@ -430,7 +421,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N0d-74-QAn" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                <rect key="frame" x="175" y="20" width="100" height="100"/>
+                                <rect key="frame" x="568" y="20" width="100" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0g-4x-yNq">
                                         <rect key="frame" x="20" y="20" width="60" height="60"/>
@@ -485,28 +476,28 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
             <objects>
                 <viewController id="j9i-pr-3lN" customClass="DanhSachNgayController" customModule="SongTheoDungMucDich" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gP0-os-vDF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gW-lv-gpz">
-                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="70" width="768" height="954"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XXI-F9-GRx">
-                                        <rect key="frame" x="0.0" y="50" width="375" height="547"/>
+                                        <rect key="frame" x="0.0" y="50" width="768" height="904"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReuseCell" rowHeight="161" id="sWf-Fu-gFZ" customClass="ContentTableViewCell" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="375" height="161"/>
+                                                <rect key="frame" x="0.0" y="28" width="768" height="161"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sWf-Fu-gFZ" id="Cq5-Fq-Je9">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="160.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="768" height="160.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cxm-fv-8gO" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                                            <rect key="frame" x="5" y="5" width="365" height="100.5"/>
+                                                            <rect key="frame" x="5" y="5.5" width="758" height="160"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flower1.png" translatesAutoresizingMaskIntoConstraints="NO" id="pbT-C0-D2H">
-                                                                    <rect key="frame" x="20" y="20.5" width="60" height="60"/>
+                                                                    <rect key="frame" x="20" y="20" width="120" height="120"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="60" id="Ruw-gz-jyg">
                                                                             <variation key="heightClass=regular-widthClass=regular" constant="120"/>
@@ -517,7 +508,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mọi Sự Bắt Đầu Với Đức Chúa Trời" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lW-AL-AB6">
-                                                                    <rect key="frame" x="90" y="40.5" width="260" height="21"/>
+                                                                    <rect key="frame" x="150" y="59" width="593" height="41.5"/>
                                                                     <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -570,7 +561,7 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TX9-q8-WDp" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                <rect key="frame" x="275" y="20" width="100" height="100"/>
+                                <rect key="frame" x="668" y="20" width="100" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpG-WE-bwZ">
                                         <rect key="frame" x="25" y="25" width="50" height="50"/>
@@ -623,17 +614,17 @@ Một lý do khiến hầu hết các cuốn sách không thay đổi được c
             <objects>
                 <viewController id="hJ1-2q-Eq6" customClass="ContentDataController" customModule="SongTheoDungMucDich" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dol-nR-6f4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RHW-24-lkW">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="974"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mza-bj-Ebh" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="20" width="335" height="545"/>
+                                        <rect key="frame" x="20" y="20" width="728" height="902"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cQc-9c-57s">
-                                                <rect key="frame" x="5" y="5" width="325" height="535"/>
+                                                <rect key="frame" x="5" y="5" width="718" height="892"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Vì muôn vật đã được dựng nên trong Ngài, bất luận trên trời, dưới đất, vật thấy được, vật không
 thấy được, hoặc ngôi vua, hoặc quyền cai trị, hoặc chấp chánh, hoặc cầm quyền, đều là bởi Ngài và
@@ -703,7 +694,7 @@ Nhiều người cố dùng Chúa để hiện thực hóa bản thân nhưng đ
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B6x-wP-u4i" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                <rect key="frame" x="275" y="567" width="100" height="100"/>
+                                <rect key="frame" x="668" y="924" width="100" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJw-31-L1r">
                                         <rect key="frame" x="25" y="25" width="50" height="50"/>
@@ -731,7 +722,7 @@ Nhiều người cố dùng Chúa để hiện thực hóa bản thân nhưng đ
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5V-S4-SEt" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                <rect key="frame" x="175" y="567" width="100" height="100"/>
+                                <rect key="frame" x="568" y="924" width="100" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adu-UE-iu1">
                                         <rect key="frame" x="25" y="25" width="50" height="50"/>
@@ -786,14 +777,14 @@ Nhiều người cố dùng Chúa để hiện thực hóa bản thân nhưng đ
             <objects>
                 <viewController id="fNZ-fc-eee" customClass="ThinkAboutController" customModule="SongTheoDungMucDich" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YWD-34-wIP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tvt-7x-I6J">
-                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="70" width="768" height="954"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suy Nghĩ Về Mục Đích Của Tôi" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Aj-fr-VII">
-                                        <rect key="frame" x="48.5" y="60" width="278" height="29"/>
+                                        <rect key="frame" x="163" y="60" width="442" height="45.5"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -802,7 +793,7 @@ Nhiều người cố dùng Chúa để hiện thực hóa bản thân nhưng đ
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vấn đề suy nghĩ:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTV-Sy-ROl">
-                                        <rect key="frame" x="20" y="129" width="115" height="20"/>
+                                        <rect key="frame" x="20" y="145.5" width="192" height="33"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=regular">
@@ -810,7 +801,7 @@ Nhiều người cố dùng Chúa để hiện thực hóa bản thân nhưng đ
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vấn đề suy nghĩ" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYr-we-kTK">
-                                        <rect key="frame" x="20" y="159" width="335" height="18.5"/>
+                                        <rect key="frame" x="20" y="188.5" width="728" height="33"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -819,7 +810,7 @@ Nhiều người cố dùng Chúa để hiện thực hóa bản thân nhưng đ
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Câu gốc: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbG-KB-tbI">
-                                        <rect key="frame" x="20" y="207.5" width="335" height="20"/>
+                                        <rect key="frame" x="20" y="251.5" width="728" height="33"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -828,7 +819,7 @@ Nhiều người cố dùng Chúa để hiện thực hóa bản thân nhưng đ
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Câu hỏi suy gẫm:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4F6-Gk-YCe">
-                                        <rect key="frame" x="20" y="286" width="335" height="20"/>
+                                        <rect key="frame" x="20" y="357.5" width="728" height="33"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -837,7 +828,7 @@ Nhiều người cố dùng Chúa để hiện thực hóa bản thân nhưng đ
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Câu hỏi suy gẫm" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pB5-iK-GyO">
-                                        <rect key="frame" x="20" y="316" width="335" height="18.5"/>
+                                        <rect key="frame" x="20" y="400.5" width="728" height="33"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -846,7 +837,7 @@ Nhiều người cố dùng Chúa để hiện thực hóa bản thân nhưng đ
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Câu gốc" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gj4-Xv-Mmj">
-                                        <rect key="frame" x="20" y="237.5" width="335" height="18.5"/>
+                                        <rect key="frame" x="20" y="294.5" width="728" height="33"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -879,7 +870,7 @@ Nhiều người cố dùng Chúa để hiện thực hóa bản thân nhưng đ
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xuQ-KP-Fox" customClass="DesignableView" customModule="SongTheoDungMucDich" customModuleProvider="target">
-                                <rect key="frame" x="275" y="20" width="100" height="100"/>
+                                <rect key="frame" x="668" y="20" width="100" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjt-kv-MAF">
                                         <rect key="frame" x="18" y="18" width="64" height="64"/>

@@ -22,6 +22,7 @@ class HomeController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //User Notification
+        print("viewDidLoad")
         let delegate = UIApplication.shared.delegate as? AppDelegate;
         delegate?.ScheduleNotification();
         // Do any additional setup after loading the view.
